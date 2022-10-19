@@ -1,4 +1,4 @@
-package com.example.login8001;
+package com.example.login10000;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,11 @@ import org.springframework.web.client.RestTemplate;
 
 @Configuration
 @SpringBootApplication
-public class Login8001Application {
+
+public class Login10000Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Login8001Application.class, args);
+        SpringApplication.run(Login10000Application.class, args);
     }
     @Bean
     public RestTemplate restTemplate(){
