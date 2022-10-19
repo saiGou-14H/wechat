@@ -1,5 +1,6 @@
 package com.example.api;
 
+
 public class MClassCourse {
 
   private long couId;
